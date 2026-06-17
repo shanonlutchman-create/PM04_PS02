@@ -1,0 +1,21 @@
+CustomerID,Name,Surname,SA_ID_Number,Phone_Number,Email,Province,City
+C001,Thabo,Nkosi,9001015009087,0821234567,thabo.nkosi@email.co.za,Gauteng,Johannesburg
+C002,Lerato,Dlamini,9205120145083,0734567890,lerato.dlamini@webmail.co.za,KwaZulu-Natal,Durban
+C003,Sipho,Zulu,8811305012081,0119876543,sipho.zulu@mzansi.co.za,Gauteng,Pretoria
+C004,Ayanda,Mthembu,0003210234086,0845551234,ayanda.mthembu@email.co.za,KwaZulu-Natal,Pietermaritzburg
+C005,Pieter,van der Merwe,7506155072089,0612223333,pieter.vdmerwe@webmail.co.za,Western Cape,Cape Town
+C006,Naledi,Mokgosi,9809260312085,0729998877,naledi.mokgosi@gmail.com,North West,Mahikeng
+C007,Farai,Ndlovu,8507180423083,0836667755,farai.ndlovu@email.co.za,Limpopo,Polokwane
+C008,Zanele,Sithole,0106040567082,083-456-7890,zanele.sithole@webmail.co.za,Mpumalanga,Nelspruit
+C009,Heinrich,Botha,6803255189081,0514445566,heinrich.botha@mweb.co.za,Western Cape,Stellenbosch
+C010,Nomvula,Shabalala,9304180678084,0787776655,nomvula.shabalala@email.co.za,Gauteng,Soweto
+C011,Kagiso,Radebe,8812095034087,0623334455,kagiso.radebe@webmail.co.za,Free State,Bloemfontein
+C012,Amira,Petersen,9512220789083,,amira.petersen@email.co.za,Western Cape,George
+C013,Bongani,Cele,7901016012089,0849990011,bongani.cele@mzansi.co.za,KwaZulu-Natal,Richards Bay
+C014,Chantelle,du Plessis,8606135823086,0721118899,chantelle.duplessis@gmail.com,Eastern Cape,Port Elizabeth
+C015,Mpho,Molefe,9708260945081,0601234321,mpho.molefe@email.co.za,Gauteng,Pretoria
+C016,Siyanda,Gumede,,0831237654,siyanda.gumede@webmail.co.za,KwaZulu-Natal,Durban
+C017,Rudi,Steenkamp,7204185067082,0114449988,rudi.steenkamp@mweb.co.za,Gauteng,Johannesburg
+C018,Thandiwe,Mhlongo,0005030234085,0762225544,thandiwe.mhlongo@email.co.za,Limpopo,Tzaneen
+C019,David,Naidoo,8309245312087,0312223344,david.naidoo@webmail.co.za,KwaZulu-Natal,Durban
+C020,Lindiwe,Khumalo,9110160456083,0853336677,lindiwe.khumalo@mzansi.co.za,Gauteng,Johannesburg

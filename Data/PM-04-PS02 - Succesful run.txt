@@ -1,0 +1,1060 @@
+04/27/2026 16:54:17 => [Trace] Debug started for file: Main
+04/27/2026 16:54:18 => [Information] MzansiConnect_CustomerOnboarding execution started
+{
+  "message": "MzansiConnect_CustomerOnboarding execution started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "16:54:18",
+  "fileName": "Main",
+  "initiatedBy": "Studio",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] MzansiConnect Customer Onboarding process started at 2026-04-27 16:54:19
+{
+  "message": "MzansiConnect Customer Onboarding process started at 2026-04-27 16:54:19",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] CSV loaded successfully. Total records loaded: 20
+{
+  "message": "CSV loaded successfully. Total records loaded: 20",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Exceptions table created successfully.
+{
+  "message": "Exceptions table created successfully.",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C001
+{
+  "message": "Processing row: C001",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C001 | ID: *********9087 | Phone: ******4567
+{
+  "message": "Valid record. Processing Row C001 | ID: *********9087 | Phone: ******4567",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C001 submitted to CRM successfully
+{
+  "message": "Row C001 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C002
+{
+  "message": "Processing row: C002",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C002 | ID: *********5083 | Phone: ******7890
+{
+  "message": "Valid record. Processing Row C002 | ID: *********5083 | Phone: ******7890",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C002 submitted to CRM successfully
+{
+  "message": "Row C002 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C003
+{
+  "message": "Processing row: C003",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C003 | ID: *********2081 | Phone: ******6543
+{
+  "message": "Valid record. Processing Row C003 | ID: *********2081 | Phone: ******6543",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C003 submitted to CRM successfully
+{
+  "message": "Row C003 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C004
+{
+  "message": "Processing row: C004",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C004 | ID: *********4086 | Phone: ******1234
+{
+  "message": "Valid record. Processing Row C004 | ID: *********4086 | Phone: ******1234",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C004 submitted to CRM successfully
+{
+  "message": "Row C004 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C005
+{
+  "message": "Processing row: C005",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C005 | ID: *********2089 | Phone: ******3333
+{
+  "message": "Valid record. Processing Row C005 | ID: *********2089 | Phone: ******3333",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C005 submitted to CRM successfully
+{
+  "message": "Row C005 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C006
+{
+  "message": "Processing row: C006",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C006 | ID: *********2085 | Phone: ******8877
+{
+  "message": "Valid record. Processing Row C006 | ID: *********2085 | Phone: ******8877",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C006 submitted to CRM successfully
+{
+  "message": "Row C006 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C007
+{
+  "message": "Processing row: C007",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C007 | ID: *********3083 | Phone: ******7755
+{
+  "message": "Valid record. Processing Row C007 | ID: *********3083 | Phone: ******7755",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C007 submitted to CRM successfully
+{
+  "message": "Row C007 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C008
+{
+  "message": "Processing row: C008",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C008 | ID: *********7082 | Phone: ******7890
+{
+  "message": "Valid record. Processing Row C008 | ID: *********7082 | Phone: ******7890",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C008 submitted to CRM successfully
+{
+  "message": "Row C008 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C009
+{
+  "message": "Processing row: C009",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C009 | ID: *********9081 | Phone: ******5566
+{
+  "message": "Valid record. Processing Row C009 | ID: *********9081 | Phone: ******5566",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C009 submitted to CRM successfully
+{
+  "message": "Row C009 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C010
+{
+  "message": "Processing row: C010",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C010 | ID: *********8084 | Phone: ******6655
+{
+  "message": "Valid record. Processing Row C010 | ID: *********8084 | Phone: ******6655",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C010 submitted to CRM successfully
+{
+  "message": "Row C010 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C011
+{
+  "message": "Processing row: C011",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C011 | ID: *********4087 | Phone: ******4455
+{
+  "message": "Valid record. Processing Row C011 | ID: *********4087 | Phone: ******4455",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C011 submitted to CRM successfully
+{
+  "message": "Row C011 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C012
+{
+  "message": "Processing row: C012",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Warning] Row C012 skipped: Phone number invalid (length: 0)
+{
+  "message": "Row C012 skipped: Phone number invalid (length: 0)",
+  "level": "Warning",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C013
+{
+  "message": "Processing row: C013",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C013 | ID: *********2089 | Phone: ******0011
+{
+  "message": "Valid record. Processing Row C013 | ID: *********2089 | Phone: ******0011",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C013 submitted to CRM successfully
+{
+  "message": "Row C013 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C014
+{
+  "message": "Processing row: C014",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C014 | ID: *********3086 | Phone: ******8899
+{
+  "message": "Valid record. Processing Row C014 | ID: *********3086 | Phone: ******8899",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C014 submitted to CRM successfully
+{
+  "message": "Row C014 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C015
+{
+  "message": "Processing row: C015",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C015 | ID: *********5081 | Phone: ******4321
+{
+  "message": "Valid record. Processing Row C015 | ID: *********5081 | Phone: ******4321",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C015 submitted to CRM successfully
+{
+  "message": "Row C015 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C016
+{
+  "message": "Processing row: C016",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Warning] Row C016 skipped: SA_ID_Number is missing
+{
+  "message": "Row C016 skipped: SA_ID_Number is missing",
+  "level": "Warning",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C017
+{
+  "message": "Processing row: C017",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C017 | ID: *********7082 | Phone: ******9988
+{
+  "message": "Valid record. Processing Row C017 | ID: *********7082 | Phone: ******9988",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C017 submitted to CRM successfully
+{
+  "message": "Row C017 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C018
+{
+  "message": "Processing row: C018",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C018 | ID: *********4085 | Phone: ******5544
+{
+  "message": "Valid record. Processing Row C018 | ID: *********4085 | Phone: ******5544",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C018 submitted to CRM successfully
+{
+  "message": "Row C018 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C019
+{
+  "message": "Processing row: C019",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C019 | ID: *********2087 | Phone: ******3344
+{
+  "message": "Valid record. Processing Row C019 | ID: *********2087 | Phone: ******3344",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C019 submitted to CRM successfully
+{
+  "message": "Row C019 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Processing row: C020
+{
+  "message": "Processing row: C020",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Valid record. Processing Row C020 | ID: *********6083 | Phone: ******6677
+{
+  "message": "Valid record. Processing Row C020 | ID: *********6083 | Phone: ******6677",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Row C020 submitted to CRM successfully
+{
+  "message": "Row C020 submitted to CRM successfully",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Process completed. Success: 18 | Skipped: 2 | Total: 20
+{
+  "message": "Process completed. Success: 18 | Skipped: 2 | Total: 20",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] Exceptions report saved to Data\Exceptions\Skipped_Records.csv
+{
+  "message": "Exceptions report saved to Data\\Exceptions\\Skipped_Records.csv",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] MzansiConnect Customer Onboarding process ended at 2026-04-27 16:54:19
+{
+  "message": "MzansiConnect Customer Onboarding process ended at 2026-04-27 16:54:19",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
+04/27/2026 16:54:19 => [Information] MzansiConnect_CustomerOnboarding execution ended in: 00:00:01
+{
+  "message": "MzansiConnect_CustomerOnboarding execution ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "16:54:19",
+  "fileName": "Main",
+  "totalExecutionTimeInSeconds": 1,
+  "totalExecutionTime": "00:00:01",
+  "jobId": "733306aa-039c-4913-b65d-936cabbef635",
+  "robotName": "esvissie@gmail.com-attended",
+  "machineId": 5466787,
+  "robotVersion": "26.0.191-cloud.22696",
+  "userKey": "1af587a8-6a66-454f-9a9d-d84e14562667",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 7136716,
+  "businessOperationId": "37b6a20253f342eeb5d8068fcbe21521-1bfb6d4f222d42d6af17d74de4af3144"
+}
