@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PM-04-PS02 Assessment Answers - Shanon Lutchman</title>
+<style>
+  body{font-family:Calibri,sans-serif;font-size:11pt;margin:50px 60px;color:#2E2E2E;line-height:1.6}
+  .cover{background:#1F497D;color:white;padding:30px 40px;border-radius:6px;margin-bottom:35px}
+  .cover h1{font-size:22pt;margin:0 0 10px 0;color:white;border:none}
+  .cover p{margin:4px 0;font-size:11pt;color:#D6E4F7}
+  .cover .label{font-weight:bold;color:#AED6F1;min-width:120px;display:inline-block}
+  h2{color:#1F497D;font-size:15pt;border-bottom:2.5px solid #2E75B6;padding-bottom:6px;margin-top:35px}
+  h3{color:#2E75B6;font-size:12.5pt;margin-top:25px;margin-bottom:5px}
+  h4{color:#4472C4;font-size:11pt;margin-top:18px;margin-bottom:4px}
+  p{margin:7px 0}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:10.5pt}
+  th{background:#2E75B6;color:white;padding:9px 11px;text-align:left}
+  td{border:1px solid #BDD7EE;padding:7px 11px;vertical-align:top}
+  tr:nth-child(even) td{background:#EBF3FB}
+  .marks{background:#E2EFDA;border-left:4px solid #70AD47;padding:6px 14px;margin:8px 0;font-weight:bold;font-size:10.5pt;display:inline-block}
+  .exc-type{font-weight:bold;color:#8B0000;background:#FFF0F0;padding:2px 8px;border-radius:3px}
+  code{font-family:Consolas,monospace;font-size:9.5pt;background:#F5F5F5;padding:1px 5px;border:1px solid #DDD;border-radius:2px}
+  ol li,ul li{margin:6px 0}
+  .footer{text-align:center;color:#888;font-size:9pt;margin-top:45px;border-top:1px solid #CCC;padding-top:12px}
+  .pii{color:#C00000;font-weight:bold}
+  .note{background:#FFF8DC;border-left:4px solid #DAA520;padding:8px 14px;margin:10px 0;font-size:10.5pt}
+  .sub-table th{background:#4472C4}
+  @media print{body{margin:30px 40px}.cover{-webkit-print-color-adjust:exact;print-color-adjust:exact}th{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<!-- ============================================================ COVER -->
+<div class="cover">
+  <h1>&#128187; PM-04-PS02: Assessment Answers</h1>
+  <p><span class="label">Module:</span> Formulate Scripted Actions and Feedback Response</p>
+  <p><span class="label">Scenario:</span> MzansiConnect Customer Onboarding Automation</p>
+  <p><span class="label">Student:</span> Shanon Lutchman</p>
+  <p><span class="label">Email:</span> shanonlutchman@gmail.com</p>
+  <p><span class="label">Organisation:</span> Alexander Forbes Group Services</p>
+  <p><span class="label">Tool:</span> UiPath Studio 26.0 &nbsp;|&nbsp; VB.NET &nbsp;|&nbsp; Windows .NET Framework</p>
+  <p><span class="label">Date:</span> 17 June 2026</p>
+</div>
+
+<!-- ============================================================ PART 1 -->
+<h2>&#128203; Part 1: Process Analysis and Design</h2>
+
+<!-- ---- TASK 1 ---- -->
+<h3>Task 1 &#8212; Decide Bot Steps &nbsp; (PA0201)</h3>
+<div class="marks">&#10003; Marks Available: 5</div>
+<p>The software robot will execute the following sequential steps to automate the MzansiConnect customer onboarding process:</p>
+
+<h4>Step 1 &#8212; Initialisation &amp; Open Applications</h4>
+<ol>
+  <li>Log the process start timestamp: <em>"MzansiConnect Customer Onboarding process started at yyyy-MM-dd HH:mm:ss"</em></li>
+  <li>Read the customer data from <code>customer_data_south_africa.csv</code> into DataTable <code>dt_CustomerData</code></li>
+  <li>Log confirmation that the CSV was loaded successfully, including the total number of records found</li>
+  <li>Build an empty Exceptions DataTable (<code>dt_Exceptions</code>) with columns: CustomerID, Reason, Timestamp</li>
+  <li>Open the CRM web portal in a browser using the <strong>Open Browser</strong> activity</li>
+</ol>
+
+<h4>Step 2 &#8212; Log In to the CRM Portal</h4>
+<ol start="6">
+  <li>Navigate to the CRM login URL</li>
+  <li>Type the CRM username into the username field (sourced from a secure UiPath Orchestrator Asset &#8212; never hardcoded)</li>
+  <li>Type the CRM password into the password field (sourced from a secure credential store)</li>
+  <li>Click the <strong>"Login"</strong> button</li>
+  <li>Verify that the CRM dashboard has loaded successfully before proceeding (post-login verification)</li>
+</ol>
+
+<h4>Step 3 &#8212; Iterate Through Each Customer Record</h4>
+<ol start="11">
+  <li>Begin a <strong>For Each Row</strong> loop through every row in <code>dt_CustomerData</code></li>
+  <li>For each row, extract and assign: CustomerID, Name, Surname, SA_ID_Number, Phone_Number (cleaned to digits only using Regex)</li>
+  <li>Validate the record:
+    <ul>
+      <li>If SA_ID_Number is blank &#8594; log warning, add to Exceptions, skip to next row</li>
+      <li>If phone number (digits only) &ne;10 digits &#8594; log warning, add to Exceptions, skip to next row</li>
+    </ul>
+  </li>
+  <li>Log the current CustomerID being processed (with PII fields masked)</li>
+</ol>
+
+<h4>Step 4 &#8212; Enter Data into the CRM</h4>
+<ol start="15">
+  <li>Click the <strong>"Add New Customer"</strong> button on the CRM portal</li>
+  <li>Type <code>strName</code> into the <strong>Name</strong> field</li>
+  <li>Type <code>strSurname</code> into the <strong>Surname</strong> field</li>
+  <li>Type <code>strSA_ID</code> into the <strong>SA ID Number</strong> field</li>
+  <li>Type <code>strPhone</code> into the <strong>Phone Number</strong> field</li>
+  <li>Click the <strong>"Submit"</strong> button</li>
+  <li>Wait for and verify the confirmation message appears on screen</li>
+  <li>Take a screenshot of the confirmation message and save it to <code>Data\Screenshots\[CustomerID]_confirmation.png</code></li>
+  <li>Log successful submission and increment <code>intSuccessCount</code></li>
+</ol>
+
+<h4>Step 5 &#8212; Logging Out &amp; Closing Applications</h4>
+<ol start="24">
+  <li>After all rows are processed, click Logout on the CRM portal</li>
+  <li>Close the browser</li>
+  <li>Write <code>dt_Exceptions</code> to <code>Data\Exceptions\Skipped_Records.csv</code></li>
+  <li>Log the final summary: Total records, Success count, Skipped count</li>
+  <li>Log the process end timestamp</li>
+</ol>
+
+<!-- ---- TASK 2 ---- -->
+<h3>Task 2 &#8212; Logging Behaviour &nbsp; (PA0202 &amp; IAC0202)</h3>
+<div class="marks">&#10003; Marks Available: 5</div>
+
+<h4>A. Information to Log</h4>
+<table>
+  <tr><th>Stage</th><th>What to Log</th><th>Log Level</th></tr>
+  <tr><td>Process Start</td><td>Timestamp of when the process began</td><td>Info</td></tr>
+  <tr><td>Data Load</td><td>CSV loaded successfully; total records count</td><td>Info</td></tr>
+  <tr><td>Exceptions Table</td><td>Confirmation that the exceptions table was created</td><td>Info</td></tr>
+  <tr><td>CRM Login</td><td>Bot successfully logged into the CRM</td><td>Info</td></tr>
+  <tr><td>Each Row &#8212; Start</td><td>CustomerID of the record currently being processed</td><td>Info</td></tr>
+  <tr><td>Validation Failure</td><td>CustomerID + reason for skipping (missing SA ID / invalid phone)</td><td>Warn</td></tr>
+  <tr><td>Valid Record</td><td>CustomerID confirmed valid &#8212; PII <strong>masked</strong></td><td>Info</td></tr>
+  <tr><td>CRM Submission</td><td>CustomerID submitted to CRM successfully</td><td>Info</td></tr>
+  <tr><td>Screenshot Saved</td><td>File path where confirmation screenshot was saved</td><td>Info</td></tr>
+  <tr><td>System Exception</td><td>CustomerID + exception message for unexpected errors</td><td>Warn</td></tr>
+  <tr><td>Process Summary</td><td>Total processed, successes, skipped count</td><td>Info</td></tr>
+  <tr><td>Process End</td><td>Timestamp of when the process completed</td><td>Info</td></tr>
+</table>
+
+<h4>B. PII Identification and Handling</h4>
+<p><strong>Which fields are PII?</strong><br>
+The following fields are classified as <span class="pii">Personal Identifiable Information (PII)</span> under South Africa's <strong>POPIA (Protection of Personal Information Act)</strong>:</p>
+<table>
+  <tr><th>Field</th><th>Why It Is PII</th></tr>
+  <tr><td><code>SA_ID_Number</code></td><td>Uniquely identifies a South African citizen &#8212; highly sensitive government-issued number</td></tr>
+  <tr><td><code>Phone_Number</code></td><td>Directly links to and identifies an individual</td></tr>
+  <tr><td><code>Name</code> + <code>Surname</code></td><td>Directly identifies the customer by name</td></tr>
+  <tr><td><code>Email</code></td><td>Personally identifies the customer and enables direct contact</td></tr>
+</table>
+
+<p><strong>How will PII be prevented from being logged?</strong></p>
+<p>Three complementary strategies are applied:</p>
+<ol>
+  <li><strong>Masking in Log Messages</strong> &#8212; Only partial data is shown in logs:
+    <ul>
+      <li>SA ID: <code>*********</code> + last 4 digits &nbsp;(e.g. <code>*********3087</code>)</li>
+      <li>Phone: <code>******</code> + last 4 digits &nbsp;(e.g. <code>******4567</code>)</li>
+      <li>Full names are <strong>never</strong> written to logs directly</li>
+    </ul>
+  </li>
+  <li><strong>UiPath Project-Level Log Exclusions</strong> &#8212; The <code>excludedLoggedData</code> property in <code>project.json</code> is configured to exclude <code>"Private:*"</code> and <code>"*password*"</code>, preventing accidental capture of sensitive variable values at the framework level.</li>
+  <li><strong>Exception messages reference only CustomerID</strong> &#8212; a non-sensitive reference key. The actual PII value is <strong>never</strong> written to the exception log or output report.</li>
+</ol>
+
+<!-- ---- TASK 3 ---- -->
+<h3>Task 3 &#8212; Exception Handling &nbsp; (PA0203 &amp; IAC0203)</h3>
+<div class="marks">&#10003; Marks Available: 6</div>
+
+<h4>Scenario A &#8212; Missing Data: SA_ID_Number is blank</h4>
+<p><span class="exc-type">Exception Type: Business Exception</span></p>
+<p>A Business Exception occurs when the data itself does not meet the required criteria for processing. A missing SA ID Number is a data quality issue &#8212; the process cannot complete for this record, but the overall automation can and should continue.</p>
+<p><strong>Handling Plan:</strong></p>
+<ol>
+  <li>Before attempting to submit data to the CRM, the bot checks: <code>If String.IsNullOrWhiteSpace(strSA_ID)</code></li>
+  <li>If <strong>True (missing)</strong>:
+    <ul>
+      <li>Log a <strong>Warning</strong>: <em>"Row [CustomerID] skipped: SA_ID_Number is missing"</em></li>
+      <li>Add a row to <code>dt_Exceptions</code>: <code>{CustomerID, "Missing SA_ID_Number", Timestamp}</code></li>
+      <li>Increment <code>intSkipCount</code> by 1</li>
+      <li>Use a <strong>Continue</strong> activity to skip to the next row &#8212; no CRM form is opened</li>
+    </ul>
+  </li>
+</ol>
+<p><strong>Verification before continuing:</strong> The bot must confirm <code>strSA_ID</code> is non-empty and non-whitespace before proceeding to any CRM data entry steps.</p>
+
+<h4>Scenario B &#8212; System Error: CRM Portal Unavailable (HTTP 503)</h4>
+<p><span class="exc-type">Exception Type: System Exception</span></p>
+<p>A System Exception is caused by an external technical failure outside the bot's control. The CRM server being temporarily unavailable is not a data issue &#8212; it is an infrastructure failure that blocks all further processing.</p>
+<p><strong>Handling Plan:</strong></p>
+<ol>
+  <li>Wrap the CRM browser interaction steps inside a <strong>Retry Scope</strong> activity configured to retry up to <strong>3 times</strong> with a <strong>30-second delay</strong> between each attempt.</li>
+  <li>If the portal remains unavailable after all retries:
+    <ul>
+      <li>Log an <strong>Error</strong>: <em>"CRM portal unavailable after 3 retry attempts. Process is being terminated."</em></li>
+      <li>Send an <strong>email alert</strong> or raise a UiPath Orchestrator alert to notify the supervisor/CSR</li>
+      <li>Write any already-collected exception records to the CSV before stopping</li>
+      <li><strong>Terminate the process</strong> &#8212; do not attempt to process further records as none can be submitted</li>
+    </ul>
+  </li>
+</ol>
+<p><strong>Verification before continuing:</strong> Before entering any customer data, the bot must verify the CRM dashboard has fully loaded (e.g. confirm the "Add New Customer" button is visible and enabled on screen).</p>
+
+<h4>Scenario C &#8212; Incorrect Format: Non-numeric Phone Number (e.g. 083-456-7890)</h4>
+<p><span class="exc-type">Exception Type: Business Exception</span></p>
+<p>This is a data formatting issue. The data exists but is in an incorrect format. This is a Business Exception because the source data does not conform to the expected standard &#8212; however, it may be recoverable through data cleansing.</p>
+<p><strong>Handling Plan:</strong></p>
+<ol>
+  <li>When extracting the phone number, immediately apply a <strong>Regex cleansing</strong> step to strip all non-numeric characters:<br>
+    <code>strPhone = Regex.Replace(CurrentRow("Phone_Number").ToString.Trim, "[^0-9]", "")</code><br>
+    This converts <code>083-456-7890</code> &#8594; <code>0834567890</code>.</li>
+  <li>After cleansing, validate the length: <code>If strPhone.Length &lt;&gt; 10</code></li>
+  <li><strong>If still invalid after cleansing</strong>:
+    <ul>
+      <li>Log a <strong>Warning</strong>: <em>"Row [CustomerID] skipped: Phone invalid after cleansing (length: X)"</em></li>
+      <li>Add row to <code>dt_Exceptions</code>: <code>{CustomerID, "Invalid Phone Number", Timestamp}</code></li>
+      <li>Increment <code>intSkipCount</code> and use <strong>Continue</strong> to move to the next record</li>
+    </ul>
+  </li>
+  <li><strong>If valid after cleansing</strong> (length = 10): proceed normally using the cleaned value for CRM submission.</li>
+</ol>
+<p><strong>Verification before continuing:</strong> The bot must confirm <code>strPhone.Length = 10</code> (after Regex cleansing) before entering the phone number into the CRM form.</p>
+
+<!-- ============================================================ PART 2 -->
+<h2>&#128187; Part 2: Applied Knowledge and Solution Development</h2>
+
+<!-- ---- TASK 4 ---- -->
+<h3>Task 4 &#8212; Reusability &nbsp; (IAC0201)</h3>
+<div class="marks">&#10003; Marks Available: 4</div>
+
+<table>
+  <tr><th style="width:28%">Field</th><th>Detail</th></tr>
+  <tr><td><strong>Component Name</strong></td><td><code>ValidateAndSubmitCustomer.xaml</code></td></tr>
+  <tr><td><strong>Description</strong></td><td>A reusable workflow component that accepts a single customer's data as input arguments, performs all business validation checks (SA ID present, SA ID Luhn checksum valid, phone number format valid), and &#8212; if the record passes validation &#8212; submits the customer's details to the CRM web portal and captures a confirmation screenshot. Returns a success/failure status and reason message, making it callable from any parent automation that needs to onboard a customer into the MzansiConnect CRM.</td></tr>
+</table>
+
+<h4>Input Arguments</h4>
+<table class="sub-table">
+  <tr><th>Argument Name</th><th>Direction</th><th>Type</th><th>Description</th></tr>
+  <tr><td><code>in_CustomerID</code></td><td>In</td><td>String</td><td>Unique identifier for the customer record</td></tr>
+  <tr><td><code>in_Name</code></td><td>In</td><td>String</td><td>Customer's first name</td></tr>
+  <tr><td><code>in_Surname</code></td><td>In</td><td>String</td><td>Customer's last name</td></tr>
+  <tr><td><code>in_SA_ID</code></td><td>In</td><td>String</td><td>Customer's SA ID Number</td></tr>
+  <tr><td><code>in_Phone</code></td><td>In</td><td>String</td><td>Customer's phone number (raw from source)</td></tr>
+  <tr><td><code>in_ScreenshotFolder</code></td><td>In</td><td>String</td><td>Folder path to save confirmation screenshots</td></tr>
+</table>
+
+<h4>Output Arguments</h4>
+<table class="sub-table">
+  <tr><th>Argument Name</th><th>Direction</th><th>Type</th><th>Description</th></tr>
+  <tr><td><code>out_IsSuccess</code></td><td>Out</td><td>Boolean</td><td><code>True</code> if record was submitted; <code>False</code> if skipped/failed</td></tr>
+  <tr><td><code>out_SkipReason</code></td><td>Out</td><td>String</td><td>Populated with the reason if <code>out_IsSuccess = False</code>; empty string if successful</td></tr>
+</table>
+
+<h4>Pre-Conditions</h4>
+<ul>
+  <li>The CRM web portal must be open and the user already logged in before this component is called</li>
+  <li>The parent workflow must supply non-null values for <code>in_CustomerID</code>, <code>in_Name</code>, and <code>in_Surname</code></li>
+  <li>The <code>in_ScreenshotFolder</code> path must exist on the file system</li>
+</ul>
+
+<h4>Post-Conditions</h4>
+<ul>
+  <li>If <code>out_IsSuccess = True</code>: a new customer record exists in the CRM and a screenshot has been saved to <code>in_ScreenshotFolder</code></li>
+  <li>If <code>out_IsSuccess = False</code>: no data was entered into the CRM; <code>out_SkipReason</code> contains the specific validation failure message for the parent workflow to log</li>
+</ul>
+
+<!-- ---- TASK 5 ---- -->
+<h3>Task 5 &#8212; Development &nbsp; (AK0201&#8211;AK0205)</h3>
+
+<h4>AK0201 &#8212; Scripting / Programming Language</h4>
+<p>The workflow is developed in <strong>UiPath Studio</strong> using <strong>VB.NET</strong> as the expression language. Custom code logic is embedded via the <strong>Invoke Code</strong> activity for SA ID Luhn checksum validation &#8212; a loop-based algorithm that cannot be expressed as a single-line VB.NET expression. Regex is also used inline (<code>System.Text.RegularExpressions.Regex.Replace</code>) to clean phone numbers of non-numeric characters directly within Assign activity expressions.</p>
+
+<h4>AK0202 &#8212; Standard Templates and Tools Used</h4>
+<table>
+  <tr><th>Activity / Tool</th><th>Purpose in This Automation</th></tr>
+  <tr><td>For Each Row in Data Table</td><td>Iterates through all CSV customer records sequentially</td></tr>
+  <tr><td>Read CSV File</td><td>Reads input <code>customer_data_south_africa.csv</code> into a DataTable</td></tr>
+  <tr><td>Build Data Table</td><td>Creates the structured Exceptions table at runtime</td></tr>
+  <tr><td>Add Data Row</td><td>Appends skipped records to the Exceptions table during processing</td></tr>
+  <tr><td>Append / Write CSV</td><td>Outputs the final Skipped_Records.csv exception report</td></tr>
+  <tr><td>Log Message</td><td>Provides structured, levelled audit logging throughout the process</td></tr>
+  <tr><td>TryCatch</td><td>Wraps per-row processing to catch system exceptions without halting the batch</td></tr>
+  <tr><td>Continue</td><td>Skips to the next row iteration when a business exception is detected</td></tr>
+  <tr><td>Multiple Assign</td><td>Efficiently assigns all row field values in a single activity</td></tr>
+  <tr><td>Take Screenshot + Save Image</td><td>Captures the CRM confirmation screen per successfully submitted record</td></tr>
+  <tr><td>Invoke Code</td><td>Executes the SA ID Luhn checksum VB.NET validation logic</td></tr>
+  <tr><td>Retry Scope</td><td>Handles transient system failures (e.g. CRM temporarily unavailable)</td></tr>
+</table>
+
+<h4>AK0203 &#8212; Processes and Workflows</h4>
+<p>The solution follows the PDD closely. <code>Main.xaml</code> is structured as a single linear sequence that first initialises data, then loops through records with a per-row TryCatch, and finally outputs the exceptions report. The design separates <em>data extraction</em>, <em>validation</em>, <em>CRM submission</em>, and <em>reporting</em> into clearly named, logically ordered activities &#8212; making the workflow readable and maintainable.</p>
+
+<h4>AK0204 &#8212; Software and Tools Employed</h4>
+<table>
+  <tr><th>Tool</th><th>Version</th><th>Role</th></tr>
+  <tr><td>UiPath Studio</td><td>26.0.191.0</td><td>Primary RPA development environment</td></tr>
+  <tr><td>UiPath.System.Activities</td><td>26.2.4</td><td>Core activities: DataTable, File I/O, Log, Control Flow</td></tr>
+  <tr><td>UiPath.Excel.Activities</td><td>3.5.0-preview</td><td>CSV read and write capabilities</td></tr>
+  <tr><td>Git</td><td>&#8212;</td><td>Version control (project tracked with remote <code>PM04_PS02</code> repository)</td></tr>
+  <tr><td>UiPath Orchestrator</td><td>&#8212;</td><td>Production deployment, scheduling, and Credential/Asset management</td></tr>
+</table>
+
+<h4>AK0205 &#8212; Cross-Operating System Considerations</h4>
+<p>The current solution targets <strong>Windows (.NET)</strong> as specified in <code>project.json</code>. If deployed on a different OS, the following changes would be required:</p>
+<table>
+  <tr><th>Consideration</th><th>Windows (Current)</th><th>Linux / Cross-platform</th></tr>
+  <tr><td>File Paths</td><td>Backslash: <code>Data\Input\file.csv</code></td><td>Use <code>Path.Combine()</code> for OS-agnostic separators</td></tr>
+  <tr><td>Browser Automation</td><td>Chrome/Edge via UiPath UiAutomation</td><td>Headless Chrome or cross-platform browser driver required</td></tr>
+  <tr><td>Credential Store</td><td>Windows Credential Manager</td><td>Environment variables or Orchestrator Assets instead</td></tr>
+  <tr><td>Screenshot API</td><td>Native Windows screenshot API</td><td>Cross-platform image handling library required</td></tr>
+  <tr><td>Target Framework</td><td>Windows-specific .NET</td><td>Switch to <code>Cross-platform</code> in <code>project.json</code></td></tr>
+</table>
+<p>In UiPath, switching to the <strong>Cross-platform</strong> target framework and replacing all hardcoded path separators with <code>Path.Combine()</code> would be the primary changes required for OS portability.</p>
+
+<div class="footer">
+  PM-04-PS02 Assessment Answers &nbsp;&#124;&nbsp; Shanon Lutchman &nbsp;&#124;&nbsp; shanonlutchman@gmail.com &nbsp;&#124;&nbsp; MzansiConnect Customer Onboarding &nbsp;&#124;&nbsp; 17 June 2026
+</div>
+
+</body>
+</html>
