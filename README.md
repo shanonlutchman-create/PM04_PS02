@@ -229,14 +229,6 @@ The automation uses a **row-level TryCatch** to ensure that a single bad record 
 
 ---
 
-## 👤 Author
-
-| Field | Value |
-|-------|-------|
-| **Name** | Shanon Lutchman |
-| **Email** | shanonlutchman@gmail.com |
-| **Organisation** | Alexander Forbes Group Services |
-| **Project** | PM-04-PS02 |
 
 ---
 
