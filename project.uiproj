@@ -1,6 +1,6 @@
 {
-  "Name": "MzansiConnect_CustomerOnboarding",
+  "Name": "PM04_PS02",
   "ProjectType": "Process",
-  "Description": "",
+  "Description": "MzansiConnect_CustomerOnboarding ",
   "MainFile": "Main.xaml"
 }

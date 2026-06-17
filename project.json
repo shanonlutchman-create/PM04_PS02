@@ -1,7 +1,7 @@
 {
-  "name": "MzansiConnect_CustomerOnboarding",
+  "name": "PM04_PS02",
   "projectId": "a99233af-d69e-4534-9b5f-5c22230b1adf",
-  "description": "",
+  "description": "MzansiConnect_CustomerOnboarding ",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.5.0-preview]",
